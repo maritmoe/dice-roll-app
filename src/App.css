@@ -1,0 +1,17 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.list {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 70px 70px 70px 70px 70px;
+  gap: 20px;
+}
+
+li {
+  display: flex;
+}
